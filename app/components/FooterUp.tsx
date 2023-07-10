@@ -12,22 +12,22 @@ const FooterUp = () => {
       <div className="lg:w-[49%] w-full flex items-center flex-col">
         <p className="text-2xl text-center leading-10 xl:w-[50%] w-[90%] mb-10">To get started download the Renmiss mobile app on playstore and appstore</p>
         <div className="flex md:items-start items-center md:justify-start justify-center mb-20">
-          <div className="bg-[#1A4E18] sm:mr-6 mr-2 flex items-center w-fit sm:py-3 py-2 sm:px-5 px-3 rounded-[10px] text-white">
+          <div className="bg-[#1A4E18] sm:mr-6 mr-2 flex items-center w-fit  py-1 sm:px-5 px-2 rounded-[10px] text-white">
             <div>
               <GooglePlay />
             </div>
             <div className="sm:ml-[13px] ml-1">
               <p className="sm:text-[15px] text-xs">Get it on</p>
-              <p className="xl:text-[35px] md:text-[16px] sm:text-[18px] text-[12px]">Google Play</p>
+              <p className="md:text-[16px] sm:text-[18px] text-[12px]">Google Play</p>
             </div>
           </div>
-          <div className="bg-[#1A4E18] flex items-center w-fit sm:py-3 py-2 sm:px-5 px-3 rounded-[10px] text-white">
+          <div className="bg-[#1A4E18] flex items-center w-fit py-1 sm:px-5 px-2 rounded-[10px] text-white">
             <div>
               <FaApple className="text-2xl" />
             </div>
             <div className="sm:ml-[13px] ml-1">
               <p className="sm:text-[15px] text-xs">Get it on</p>
-              <p className="xl:text-[35px] md:text-[16px] sm:text-[18px] text-[12px]">Google Play</p>
+              <p className="md:text-[16px] sm:text-[18px] text-[12px]">Google Play</p>
             </div>
           </div>
         </div>
