@@ -4,7 +4,7 @@ import { IoMdCheckmarkCircle } from "react-icons/io";
 import AboutLandinPage from "./AboutLandinPage";
 
 const OurAppFeatures = () => {
-  const StringArr = ["Easy Payment", "fast transaction", "Verities of service"];
+  const StringArr = ["Easy Payment", "fast transaction", "Variety of service"];
   return (
     <div className="bg-[#0C240B] w-full flex flex-col items-center lg:px-[89px] md:px-[30px] px-[15px] text-white py-[181px] md:rounded-tr-[300px] rounded-tr-[200px]">
       <h1 className="mb-[61px] text-3xl font-bold md:text-4xl lg:text-5xl">Our App Features</h1>
