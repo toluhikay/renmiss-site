@@ -67,7 +67,7 @@ const FooterMain = () => {
             })}
             <div className="text-white xl:w-[40%] md:w-[48%] md:mt-0 mt-12 w-full">
               <h3 className="font-semibold mb-3">Join our community</h3>
-              <p className="font-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus.</p>
+              <p className="font-light">Join our vibrant Renmiss mobile app community and dive into a world of connection, engagement, and endless possibilities.</p>
 
               <div className="border border-white w-fit mt-8 h-fit text-xs flex justify-between items-center rounded overflow-hidden">
                 <input type="text" className="bg-inherit h-full py-[10px] px-4 outline-none text-white" placeholder="Enter Your Email Here" />
