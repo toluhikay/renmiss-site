@@ -5,6 +5,7 @@ import LogoImage from "../../public/Logo.png";
 import Image from "next/image";
 import { BiMenuAltRight, BiMoon } from "react-icons/bi";
 import Link from "next/link";
+import { AiOutlineClose } from "react-icons/ai";
 
 const Navbar = () => {
   const NavData = [
@@ -45,12 +46,18 @@ const Navbar = () => {
           </p>
         </div>
       </nav>
-      <nav className={`w-[50%] bg-gradient-to-tr transition-all  from-gray-100 via-green-100 to-green-200 px-[30px] ${navState ? "left-0" : "left-[-100%]"} flex md:hidden fixed top-0 h-screen justify-between items-center`}>
-        <ul className="flex justify-between lg:w-[70%] h-[50%] md:w-[80%] w-full md:flex-row flex-col md:items-center">
+      <nav className={`w-[100%] bg-gradient-to-tr transition-all flex-col from-gray-100 via-green-100 to-green-200 px-[30px] ${navState ? "left-0" : "left-[-100%]"} flex md:hidden fixed top-0 h-screen justify-center items-center`}>
+        <div className="absolute top-5 w-full flex justify-between px-[15px]">
+          <Image src={LogoImage} alt="logo" />
+          <AiOutlineClose className="text-3xl" onClick={() => setNavState(false)} />
+        </div>
+        <ul className="flex justify-center w-full md:flex-row flex-col items-center">
           {NavData.map((item, index) => {
             return (
               <Link href={item.link} key={index}>
-                <p className="text-base md:my-0 my-4 font-semibold capitalize">{item.label}</p>
+                <p className="text-base md:my-0 my-12 font-semibold capitalize" onClick={() => setNavState(false)}>
+                  {item.label}
+                </p>
               </Link>
             );
           })}

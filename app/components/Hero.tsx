@@ -31,7 +31,7 @@ const Hero = () => {
             </div>
             <div className="sm:ml-[13px] ml-1">
               <p className="sm:text-[15px] text-xs">Get it on</p>
-              <p className="md:text-[16px] sm:text-[18px] text-[12px]">Google Play</p>
+              <p className="md:text-[16px] sm:text-[18px] text-[12px]">AppStore</p>
             </div>
           </div>
         </div>
