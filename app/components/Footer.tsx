@@ -9,9 +9,9 @@ import Link from "next/link";
 
 const Footer = () => {
   const socialsDetails = [
-    { id: 1, link: "", icon: FacebookIcon },
-    { id: 1, link: "", icon: TwitterIcon },
-    { id: 1, link: "", icon: InstagramIcon },
+    { id: 1, link: "https://www.facebook.com/profile.php?id=100089767633594", icon: FacebookIcon },
+    { id: 1, link: "https://twitter.com/RenmissL61902/status/1652996058631340034?s=20", icon: TwitterIcon },
+    { id: 1, link: "https://instagram.com/renmisstechltd?igshid=NTc4MTIwNjQ2YQ==", icon: InstagramIcon },
   ];
 
   return (
@@ -24,7 +24,7 @@ const Footer = () => {
         <div className="w-full flex-wrap justify-center items-center flex">
           {socialsDetails.map((item, index) => {
             return (
-              <Link href={item.link} key={index}>
+              <Link target="_blank" href={item.link} key={index}>
                 <div className="mx-3">
                   <Image src={item.icon} alt={item.link} />
                 </div>
