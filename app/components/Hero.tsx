@@ -10,7 +10,7 @@ import Image from "next/image";
 const Hero = () => {
   return (
     <div className="flex flex-wrap md:justify-between justify-center md:min-h-screen h-auto items-start md:py-[auto] lg:pt-56 pt-32 lg:px-[89px] md:px-[30px] px-[15px] w-full bg-gradient-to-tr from-yellow-200/40 via-gray-200 to-green-300/70">
-      <div className="lg:w-[48%] md:w-[50%] w-full md:mb-0 mb-20">
+      <div className="lg:w-[56%] md:w-[50%] w-full md:mb-0 mb-20">
         <div className="flex w-full md:items-start sm:items-center flex-col">
           <p className="xl:text-[64px] lg:text-[48px]  text-[36px] md:text-start text-center bg-clip-text pr-[2px] text-transparent bg-gradient-to-r from-[#1A4E18] to-[#013356] font-bold leading-2  lg:w-[75%] sm:w-4/5">Creating financial product solutions for Africa </p>
           <p className="pb-[30px] md:text-start text-center">Download our app to keep you updated</p>
@@ -44,7 +44,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className="xl:pr-[200px] md:w-[50%] md:flex justify-center items-center">
+      <div className="xl:pr-[200px] md:w-[43%] md:flex justify-center items-center">
         <Image src={HeroImage} alt="hero-img" className="w-auto lg:w-[70%] md:w-[70%]" />
       </div>
     </div>
