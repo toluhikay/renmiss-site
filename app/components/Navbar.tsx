@@ -11,6 +11,7 @@ const Navbar = () => {
   const NavData = [
     { id: 1, label: "home", link: "" },
     { id: 2, label: "product", link: "" },
+    { id: 2, label: "repeaters", link: "renmiss-politics" },
     { id: 3, label: "contact", link: "contact" },
     { id: 4, label: "about", link: "about" },
   ];

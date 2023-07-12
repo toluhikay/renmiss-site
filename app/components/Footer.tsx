@@ -10,7 +10,7 @@ import Link from "next/link";
 const Footer = () => {
   const socialsDetails = [
     { id: 1, link: "https://www.facebook.com/profile.php?id=100089767633594", icon: FacebookIcon },
-    { id: 1, link: "https://twitter.com/RenmissL61902/status/1652996058631340034?s=20", icon: TwitterIcon },
+    { id: 1, link: "https://twitter.com/RenmissL61902", icon: TwitterIcon },
     { id: 1, link: "https://instagram.com/renmisstechltd?igshid=NTc4MTIwNjQ2YQ==", icon: InstagramIcon },
   ];
 
