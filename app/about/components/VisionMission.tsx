@@ -5,8 +5,8 @@ import MissionImage from "../../../public/images/MissionImg.png";
 
 const VisionMission = () => {
   const VisionMissionData = [
-    { id: 1, img: VisionImage, title: "VISION", content: "A simplified network without financial borders for individuals and businesses to thrive, anytime, anywhere in Nigeria and beyond" },
-    { id: 1, img: MissionImage, title: "Mission", content: "To create an all-in-one information sharing, socio-economic and political network, with a modern payment infrastructure that would improve digital users’ experience, introduce and inspire analogue demography to believe and plug into the global economy" },
+    { id: 1, img: VisionImage, title: "VISION", content: "A network of interrelated innovations in a variety of industries, upholding political and socio-economic prosperity of Nigerians and Africans at large." },
+    { id: 1, img: MissionImage, title: "Mission", content: "A combination of technology, tradition, information delivery, and sincerity of purpose in creating unique systems that cause disruptions in the modus operandi of existing and emerging sectors within the economic spectrum, to trigger individual, collective, national, and continental development of Nigeria and Africa." },
   ];
 
   return (
