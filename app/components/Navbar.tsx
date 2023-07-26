@@ -21,9 +21,11 @@ const Navbar = () => {
   return (
     <header className="fixed w-full top-0 left-0 bg-gradient-to-r z-[300000] backdrop-blur-xl flex md:flex-row flex-col justify-between items-center lg:px-[86px] md:px-[30px] px-[15px] md:py-[33px] py-3 font-extrabold">
       <div className="flex md:w-auto w-full justify-between items-center">
-        <div className="flex items-center">
-          <Image src={LogoImage} alt="renmiss logo" /> <span className=" bg-clip-text italic bg-gradient-to-r text-lg font-extrabold text-transparent from-[#013356] to-[#1A4E18]">RenmissTech</span>
-        </div>
+        <Link href={"/"}>
+          <div className="flex items-center">
+            <Image src={LogoImage} alt="renmiss logo" /> <span className=" bg-clip-text italic bg-gradient-to-r text-lg font-extrabold text-transparent from-[#013356] to-[#1A4E18] cursor-pointer">RenmissTech</span>
+          </div>
+        </Link>
         <div className="md:hidden flex items-center">
           <p className="text-white bg-[#1A4E18] w-fit mr-3 p-[5px] rounded-full">
             <BiMoon className="" />

@@ -68,7 +68,7 @@ const RepeaterArray = ({ number, id, setId }: { id: null | number; setId: React.
       <div className={`${id === number ? "flex" : "hidden"}`}>
         {RepeatersData.map((item, index) => {
           return (
-            <div className={`absolute flex items-center flex-col ${index === 0 ? "left-0 bottom-[15%]" : index === 1 ? "left-0 top-[16%]" : index === 2 ? "top-[-15%] left-[50%] translate-x-[-50%]" : index === 3 ? "right-0 top-[17%]" : index === 4 ? "right-0 bottom-[10%]" : index === 5 ? "bottom-[-15%] right-[20%]" : index === 6 ? "bottom-[-15%] right-[50%]" : ""}`} key={index}>
+            <div className={`absolute flex items-center flex-col ${index === 0 ? "left-0 bottom-[15%]" : index === 1 ? "left-0 top-[16%]" : index === 2 ? "top-[-15%] left-[50%] translate-x-[-50%]" : index === 3 ? "right-0 top-[17%]" : index === 4 ? "right-0 bottom-[10%]" : index === 5 ? "sm:bottom-[-15%] bottom-[-20%] right-[20%]" : index === 6 ? "bottom-[-15%] right-[50%]" : ""}`} key={index}>
               <div className={`sm:w-[90px] sm:h-[90px] w-[50px] h-[50px] rounded-full overflow-hidden`}>
                 <Image className="object-cover w-full h-full" src={item.img} alt={item.region} width={100} height={100} />
               </div>
