@@ -36,7 +36,7 @@ const FooterMain = () => {
             <Image src={WhiteLogo} alt="renmiss logo" />
             <span className=" bg-clip-text italic bg-gradient-to-r text-lg font-extrabold text-transparent bg-white">RenmissTech</span>
           </div>
-          <p className="text-justify mt-[25px] font-light text-[#596067]">Renmiss Tech: Unleash the power of innovation in the palm of your hand. Our mobile app is your gateway to groundbreaking solutions, seamless connectivity, and limitless possibilities. Embrace the future with Renmiss Tech and unlock a world of digital transformation.</p>
+          <p className="text-justify mt-[25px] font-light text-[#fff]">Unleash the power of innovation in the palm of your hand. Our mobile app is your gateway to groundbreaking solutions, seamless connectivity, and limitless possibilities. Embrace the future with Renmiss Tech and unlock a world of digital transformation.</p>
         </div>
 
         <div className="lg:w-[62%]">
